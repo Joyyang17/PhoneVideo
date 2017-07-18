@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.joy.phonevideo.activity.MainActivity">
+
+    <!--标题栏-->
+    <include layout="@layout/titlebar"></include>
+
+
+
+    <!--FrameLayout-->
+         <FrameLayout
+             android:id="@+id/fl_main_content"
+             android:layout_weight="1"
+             android:layout_width="match_parent"
+             android:layout_height="0dp">
+         </FrameLayout>
+
+
+
+    <!--RadioGroup-->
+    <RadioGroup
+        android:id="@+id/rg_bottom_tag"
+        android:background="#11000000"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rb_local_video"
+            android:text="@string/rb_main_one"
+            android:drawableTop="@drawable/rb_video_drawable_selector"
+            style="@style/bottom_tag_style"
+            />
+
+        <RadioButton
+            android:id="@+id/rb_local_audio"
+            android:text="@string/rb_main_two"
+            android:drawableTop="@drawable/rb_audio_drawable_selector"
+            style="@style/bottom_tag_style"
+            />
+
+        <RadioButton
+            android:id="@+id/rb_net_video"
+            android:text="@string/rb_main_three"
+            android:drawableTop="@drawable/rb_netvideo_drawable_selector"
+            style="@style/bottom_tag_style"
+            />
+
+        <RadioButton
+            android:id="@+id/rb_net_audio"
+            android:text="@string/rb_main_four"
+            android:drawableTop="@drawable/rb_netaudio_drawable_selector"
+            style="@style/bottom_tag_style"
+            />
+
+    </RadioGroup>
+
+
+</LinearLayout>

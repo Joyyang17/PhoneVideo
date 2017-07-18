@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">手机影音</string>
+    <string name="rb_main_one">本地视频</string>
+    <string name="rb_main_two">本地音频</string>
+    <string name="rb_main_three">网络视频</string>
+    <string name="rb_main_four">网络音乐</string>
+
+    <string name="tv_title_search">全网搜索</string>
+    <string name="tv_localvideo_nothing">本地无视频</string>
+    <string name="video_name">视频名称</string>
+    <string name="video_time">00.00</string>
+    <string name="video_size">文件大小</string>
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.joy.phonevideo">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity.RecyclerActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.MainActivity" />
+        <activity android:name=".activity.SystemVideoplayer" />
+        <activity
+            android:name=".activity.YouActivity"
+            android:theme="@style/Theme.AppCompat.Dialog" />
+        <activity android:name=".activity.MyActivity" />
+        <activity android:name=".activity.ButterKnifeActivity" />
+        <activity android:name=".activity.SplashActivity" />
+        <activity android:name=".activity.EventBusSendActivity" />
+        <activity android:name=".activity.HandlerActivity" />
+        <activity android:name=".activity.EventBusActivity"></activity>
+    </application>
+
+</manifest>
